@@ -36,3 +36,7 @@ The mock data used in this demo for the no data base queries are stored in model
 
 **NOTE**
 All the queries related to PARTS, WORK ORDERS and PURCHASES works ONLY with a data base.
+
+## Links
+
+- [graphql documentary]('https://www.youtube.com/watch?v=783ccP__No8)
