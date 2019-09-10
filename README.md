@@ -30,6 +30,18 @@ The Graphql dev IDE service will be hosted in our local host http://localhost:30
   }
 ```
 
+Also we can use the http file to test the API. Open the **ApiCalls.http** file on VSCODE and press **Send Request**. Is necesary to have installed **REST Client** plugin. Go to extension secction if is necesary to install.
+
+```
+### GET ALL USERS
+POST http://localhost:3000/graphql
+content-type: application/json
+
+{
+    "query": "{allUsers{name}}"
+}
+```
+
 ## Mock Data
 
 The mock data used in this demo for the no data base queries are stored in model/index.js. In this case USER, PET and CAR.
@@ -40,3 +52,4 @@ All the queries related to PARTS, WORK ORDERS and PURCHASES works ONLY with a da
 ## Links
 
 - [graphql documentary](https://www.youtube.com/watch?v=783ccP__No8)
+- [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
