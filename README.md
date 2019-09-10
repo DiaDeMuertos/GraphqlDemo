@@ -39,4 +39,4 @@ All the queries related to PARTS, WORK ORDERS and PURCHASES works ONLY with a da
 
 ## Links
 
-- [graphql documentary]('https://www.youtube.com/watch?v=783ccP__No8)
+- [graphql documentary](https://www.youtube.com/watch?v=783ccP__No8)
