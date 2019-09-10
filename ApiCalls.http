@@ -1,0 +1,7 @@
+### GET ALL USERS
+POST http://localhost:3000/graphql
+content-type: application/json
+
+{
+    "query": "{allUsers{name}}"
+}
