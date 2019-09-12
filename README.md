@@ -53,3 +53,4 @@ All the queries related to PARTS, WORK ORDERS and PURCHASES works ONLY with a da
 
 - [graphql documentary](https://www.youtube.com/watch?v=783ccP__No8)
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+- [Schema-First](https://www.prisma.io/blog/the-problems-of-schema-first-graphql-development-x1mn4cb0tyl3)
