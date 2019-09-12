@@ -8,6 +8,13 @@ const resolversUser = {
   User: {
     pets: user => fakeDataBase.pet.filter(pet => pet.userId === user.id),
   },
+  Mutation: {
+    addUser(_, user) {
+      const id = fakeDataBase.user.length + 1;
+      const newUser = { ...user, id };
+      return newUser;
+    },
+  },
 };
 
 export default resolversUser;
