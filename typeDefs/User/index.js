@@ -13,3 +13,9 @@ export const typeQueryUser = `
     userById(id:ID): User
   }
 `;
+
+export const typeMutationUser = `
+  type Mutation {
+    addUser(name:  String, age: Int): User
+  }
+`;
