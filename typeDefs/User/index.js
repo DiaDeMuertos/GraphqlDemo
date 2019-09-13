@@ -12,6 +12,7 @@ export const typeQueryUser = `
     allUsers: [User]
     userById(id:ID!): User
     findUsers(pattern: String!): [User]!
+    allUsersPaging(page: Int=1, pageSize: Int=2): [User]!
   }
 `;
 
