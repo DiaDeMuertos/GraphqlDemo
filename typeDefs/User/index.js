@@ -11,7 +11,7 @@ export const typeQueryUser = `
   extend type Query {
     allUsers: [User]
     userById(id:ID!): User
-    findUsers(pattern: String): [User]!
+    findUsers(pattern: String!): [User]!
   }
 `;
 
